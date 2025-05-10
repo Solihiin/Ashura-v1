@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Projects | Ashura Portfolio</title>
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css   ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html#home" class="logo">
+        <img src="images/logo-nav.png" alt="Ashura Logo" />
+        <span>Ashura</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="index.html#projects" class="nav-link active">Projects</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+        <div class="nav-indicator"></div>
+      </div>
+
+      <button class="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- All Projects Section -->
+  <section class="projects" style="padding-top: 150px;">
+    <div class="container">
+      <h2 class="section-title">All Projects</h2>
+      <p class="section-subtitle">Explore all logo design projects I've worked on.</p>
+
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="brand">Brand</button>
+        <button class="filter-btn" data-filter="mascot">Mascot</button>
+        <button class="filter-btn" data-filter="monogram">Monogram</button>
+      </div>
+      
+
+      <div class="projects-grid" id="projects-container">
+        <!-- All project cards loaded here via JS -->
+      </div>
+      <div id="pagination" class="pagination-controls"></div>
+    </div>
+
+  </section>
+
+  <!-- Project Modal -->
+  <div class="modal" id="project-modal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="project-modal-content">
+        <div class="project-modal-image">
+          <img id="modal-project-image" src="" alt="Project Image" />
+        </div>
+        <div class="project-modal-details">
+          <h2 id="modal-project-title"></h2>
+          <div class="project-meta">
+            <span class="project-tools" id="modal-project-tools"></span>
+            <span class="project-year" id="modal-project-year"></span>
+          </div>
+          <p id="modal-project-description"></p>
+          <div class="project-tags" id="modal-project-tags"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <img src="images/logo.png" alt="Ashura Logo" />
+          </a>
+          <p>
+            Futuristic and elegant logo design services to elevate your brand
+            identity.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Follow Me</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class='bx bxl-tiktok' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; Ashura 2025. All rights reserved.</p>
+        <p>Designed with <i class="fas fa-heart"></i> by Ashura</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- Scripts -->
+  <script src="js/project.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

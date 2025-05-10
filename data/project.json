@@ -1,0 +1,185 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "NexaTech",
+        "image": "nexatech.jpg",
+        "tools": ["Adobe Illustrator"],
+        "year": "11, 05, 2024",
+        "description": "A futuristic logo design for a tech startup specializing in AI solutions.",
+        "tags": ["abstract", "tech", "company"]
+      },
+      {
+        "id": 2,
+        "title": "GreenLife",
+        "image": "greenleaf.jpg",
+        "tools": ["Adobe Illustrator"],
+        "year": "20, 05, 2024",
+        "description": "A friendly mascot logo for an organic food brand.",
+        "tags": ["mascot", "organic", "umkm"]
+      },
+      {
+        "id": 3,
+        "title": "Monarch",
+        "image": "monarch.jpg",
+        "tools": ["Inkscape", "Canva"],
+        "year": "24, 05, 2024",
+        "description": "An elegant monogram logo for a luxury fashion brand.",
+        "tags": ["monogram", "fashion", "brand"]
+      },
+      {
+        "id": 4,
+        "title": "UrbanBites",
+        "image": "urban-bites.jpg",
+        "tools": ["Adobe Illustrator"],
+        "year": "30, 05, 2024",
+        "description": "A typography-focused logo for a street food restaurant chain.",
+        "tags": ["typography", "food", "umkm"]
+      },
+      {
+        "id": 5,
+        "title": "AeroSpace",
+        "image": "aerospace.jpg",
+        "tools": ["Adobe Illustrator"],
+        "year": "4, 06, 2024",
+        "description": "An abstract logo for an aerospace company.",
+        "tags": ["icon", "tech", "company"]
+      },
+      {
+        "id": 6,
+        "title": "Vitality Health",
+        "image": "vitality-healt.jpg",
+        "tools": ["Adobe Illustrator"],
+        "year": "10, 06, 2024",
+        "description": "A healthcare logo that combines medical symbolism with a human touch.",
+        "tags": ["symbol", "health", "company"]
+      },
+      {
+        "id": 7,
+        "title": "PixelPlay Gaming",
+        "image": "pixel-play.jpg",
+        "tools": ["Adobe Illustrator"],
+        "year": "16, 06, 2024",
+        "description": "A dynamic logo for a gaming company featuring pixel art elements.",
+        "tags": ["mascot", "pixel", "gaming"]
+      },
+      {
+        "id": 8,
+        "title": "EcoSphere",
+        "image": "echospare.jpg",
+        "tools": ["Inkscape", "Canva"],
+        "year": "20, 06, 2024",
+        "description": "An environmental logo using leaf and circle elements for sustainability.",
+        "tags": ["emblem", "eco", "nonprofit"]
+      },
+      {
+        "id": 9,
+        "title": "Nebula Tech",
+        "image": "nebula-tech.jpg",
+        "year": "22, 06, 2024",
+        "tools": ["Adobe Illustrator"],
+        "description": "A futuristic logo for a space tech startup.",
+        "tags": ["abstract", "tech", "startup"]
+      },
+      {
+        "id": 10,
+        "title": "Mochima",
+        "image": "mochima.jpg",
+        "year": "27, 06, 2024",
+        "tools": ["Adobe Illustrator"],
+        "description": "Mascot design for a Japanese dessert cafe.",
+        "tags": ["mascot", "food", "umkm"]
+      },
+      {
+        "id": 11,
+        "title": "Aurora Monogram",
+        "image": "aurora.jpg",
+        "year": "3, 07, 2024",
+        "tools": ["Inkscape", "Adobe Illustrator"],
+        "description": "Elegant monogram design for a luxury fashion brand.",
+        "tags": ["monogram", "fashion", "brand"]
+      },
+      {
+        "id": 12,
+        "title": "Quantum Labs",
+        "image": "quantum.jpg",
+        "year": "7, 07, 2024",
+        "tools": ["Adobe Illustrator"],
+        "description": "Logo for a quantum computing research lab.",
+        "tags": ["symbol", "tech", "lab"]
+      },
+      {
+        "id": 13,
+        "title": "Brewmaster Bear",
+        "image": "brewmaster.jpg",
+        "year": "11, 07, 2024",
+        "tools": ["Procreate"],
+        "description": "Mascot for a craft brewery with a bear holding a beer mug.",
+        "tags": ["mascot", "food", "umkm"]
+      },
+      {
+        "id": 14,
+        "title": "Elysium Resorts",
+        "image": "elysiumresort.jpg",
+        "year": "19, 07, 2024",
+        "tools": ["Adobe Illustrator"],
+        "description": "Luxury resort brand logo with palm tree and sun motif.",
+        "tags": ["symbol", "travel", "brand"]
+      },
+        {
+          "id": 15,
+          "title": "DragonForce Esports",
+          "image": "logo3.jpg",
+          "year": "2024",
+          "tools": ["Adobe Illustrator"],
+          "description": "Aggressive dragon mascot logo for a professional esports team.",
+          "tags": ["mascot", "gaming", "esports"]
+        },
+        {
+          "id": 16,
+          "title": "Summit Financial",
+          "image": "logo4.jpg",
+          "year": "2023",
+          "tools": ["Adobe Illustrator"],
+          "description": "Minimalist mountain logo for a financial consulting company.",
+          "tags": ["icon", "corporate", "finance"]
+        },
+        {
+          "id": 17,
+          "title": "Phoenix Rising Esports",
+          "image": "logo6.jpg",
+          "year": "2024",
+          "tools": ["Adobe Illustrator"],
+          "description": "Bold mascot logo featuring a phoenix for a rising esports brand.",
+          "tags": ["mascot", "gaming", "esports"]
+        },
+        {
+          "id": 18,
+          "title": "Brew Haven",
+          "image": "logo5.jpg",
+          "year": "2023",
+          "tools": ["Adobe Illustrator"],
+          "description": "Organic-style emblem logo for a craft beer brewery.",
+          "tags": ["emblem", "food", "umkm"]
+        },
+        {
+          "id": 19,
+          "title": "Aurora Beauty",
+          "image": "aurora-beauty.jpeg",
+          "year": "2024",
+          "tools": ["Canva", "Adobe Illustrator"],
+          "description": "Soft and elegant line-art logo for a modern skincare product line.",
+          "tags": ["lineart", "beauty", "brand"]
+        },
+        {
+          "id": 20,
+          "title": "Brewcraft Coffee",
+          "image": "brewcraft.jpeg",
+          "year": "2023",
+          "tools": ["Inkscape"],
+          "description": "Minimalist icon logo used for a coffee shop chain brand identity.",
+          "tags": ["icon", "food", "umkm"]
+        }
+    ]
+  }
+  

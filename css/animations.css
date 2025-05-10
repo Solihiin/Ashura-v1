@@ -1,0 +1,233 @@
+/* ===== Keyframe Animations ===== */
+@keyframes pulse {
+    0% {
+      opacity: 0.3;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+      opacity: 0.6;
+      transform: translate(-50%, -50%) scale(1.05);
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  /* ===== Element Animations ===== */
+  /* Hero Image Animation */
+  .hero-image img {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  /* Service Card Icon Animation */
+  .service-card:hover .service-icon {
+    animation: wave 1s ease;
+  }
+  
+  /* Project Card Animation */
+  .project-card {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .project-card:hover {
+    transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+  }
+  
+  /* Button Hover Animation */
+  .btn {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+  }
+  
+  .btn:focus:not(:active)::after {
+    animation: ripple 1s ease-out;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(20, 20);
+      opacity: 0;
+    }
+  }
+  
+  /* Text Reveal Animation */
+  .text-reveal {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .text-reveal::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    animation: textReveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    transform: translateX(0);
+  }
+  
+  @keyframes textReveal {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Loading Animation */
+  .loading-spinner {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(79, 195, 247, 0.3);
+    border-radius: 50%;
+    border-top-color: var(--accent-color);
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Fade In Animation */
+  .fade-in {
+    animation: fadeIn 1s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Slide Up Animation */
+  .slide-up {
+    animation: slideUp 1s ease-out forwards;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Bounce Animation */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 1s;
+  }
+  
+  /* Shake Animation */
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(5px);
+    }
+  }
+  
+  .shake {
+    animation: shake 0.5s;
+  }
+  
+  /* Gradient Background Animation */
+  .gradient-bg {
+    background: linear-gradient(-45deg, #1a237e, #1976d2, #4fc3f7, #0d1238);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
