@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentFilteredProjects = [];
 
   // Load projects from JSON file
-  fetch("/data/project.json")
+  fetch("data/project.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
